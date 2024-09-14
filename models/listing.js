@@ -38,11 +38,9 @@ let listSchema = new Schema({
     type: {
       type: String,
       enum: ["Point"],
-      
     },
     coordinates: {
       type: [Number],
-      
     },
   },
 });
